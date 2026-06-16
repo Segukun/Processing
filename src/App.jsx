@@ -1,13 +1,15 @@
 import './App.css'
 import { useState } from 'react'
-import ScreenDrawing from './screens/Screen1'
-import ScreenShapes from './screens/Screen2'
-import ScreenStats from './screens/Screen3'
+import Screen1 from './screens/Screen1'
+import Screen2 from './screens/Screen2'
+import Screen3 from './screens/Screen3'
+import Screen4 from './screens/Screen4'
 
 const tabs = [
-  { label: 'Ejercicio 1', icon: '一', component: ScreenDrawing },
-  { label: 'Ejercicio 2', icon: '二', component: ScreenShapes },
-  { label: 'Ejercicio 3', icon: '三', component: ScreenStats },
+  { label: 'Ejercicio 1', icon: '1', component: Screen1 },
+  { label: 'Ejercicio 2', icon: '2', component: Screen2 },
+  { label: 'Ejercicio 3', icon: '3', component: Screen3 },
+  { label: 'Ejercicio 4', icon: '4', component: Screen4 },
 ]
 
 function App() {
