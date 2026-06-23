@@ -48,9 +48,9 @@
 
 .bottom-navbar {
   height: 78px;
-  width: min(560px, calc(100% - 32px));
+  width: min(680px, calc(100% - 32px));
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   position: absolute;
   left: 50%;
   bottom: 16px;
@@ -135,6 +135,6 @@
   }
 
   .nav-label {
-    font-size: 9px;
+    font-size: 8px;
   }
 }
